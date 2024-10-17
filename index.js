@@ -5,9 +5,9 @@
 
 const string1 = "My favorite dessert is jello";
 
-const index = string1.indexOf("j");
-console.log(index);
-
+for (let i = 0; i<string1.length; i++){
+    if(string1[i]==="j"){
+        console.log(i);
 
 
 
@@ -17,8 +17,7 @@ console.log(index);
 // Make a new string with the text "COOL" by using only the characters available in the provided string and the bracket notation
 
 const string2 = "ABCDEFGHJKLO";
-const newString1= string2[2] + string2[14] + string2[14] + string2[11];
-console.log(newString1);
+console.log(`${string2[2]}${string2[string2.length-1]}${string2[string2.length-1]}${string2[string2.length-2]}`)
 
 
 
